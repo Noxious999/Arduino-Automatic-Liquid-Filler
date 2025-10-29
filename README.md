@@ -62,7 +62,7 @@ Tujuan utama proyek ini adalah merancang dan membangun prototipe mesin pengisi c
 
 <div align="center">
   
-![Flowchart Sistem](5.jpg) 
+![Flowchart Sistem](3.png) 
 
 </div>
 
