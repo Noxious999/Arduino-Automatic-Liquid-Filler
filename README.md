@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Ilustrasi Sistem](2.jpg) 
+![Ilustrasi Sistem](2.png) 
 
 </div>
 
@@ -16,7 +16,7 @@ Tujuan utama proyek ini adalah merancang dan membangun prototipe mesin pengisi c
 
 <div align="center">
   
-![Diagram Blok Sistem](5.jpg) 
+![Diagram Blok Sistem](4.jpg) 
 
 </div>
 
@@ -33,7 +33,7 @@ Tujuan utama proyek ini adalah merancang dan membangun prototipe mesin pengisi c
 
 <div align="center">
   
-![Prototipe Automatic Liquid Filling Machine](4.jpg) 
+![Prototipe Automatic Liquid Filling Machine](5.jpg) 
 
 </div>
 
@@ -96,7 +96,7 @@ Tujuan utama proyek ini adalah merancang dan membangun prototipe mesin pengisi c
 
 <div align="center">
   
-[![Demonstrasi Pengisian Botol Otomatis](1.jpg)](https://drive.google.com/file/d/1b4FN0QCAAs1wEMCV2WAWb1J05NRkUE5H/view?usp=sharing) 
+[![Demonstrasi Pengisian Botol Otomatis](1.png)](https://drive.google.com/file/d/1b4FN0QCAAs1wEMCV2WAWb1J05NRkUE5H/view?usp=sharing) 
 
 *(Klik gambar untuk melihat video)*
 
