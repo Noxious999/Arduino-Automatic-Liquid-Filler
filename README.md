@@ -1,12 +1,24 @@
 # Automatic Liquid Filling Machine (Arduino Uno)
 
-![Ilustrasi Sistem](images/illustration.jpg) Repositori ini berisi kode sumber Arduino dan dokumentasi untuk proyek "Automatic Liquid Filling Machine". Proyek ini merupakan tugas akhir matakuliah Sensor dan Tranduser yang dibuat oleh mahasiswa D4 Teknologi Rekayasa Sistem Elektronika, Universitas Negeri Malang pada Semester 3 (Desember 2022).
+<div align="center">
+
+![Ilustrasi Sistem](2.jpg) 
+
+</div>
+
+Repositori ini berisi kode sumber Arduino dan dokumentasi untuk proyek "Automatic Liquid Filling Machine". Proyek ini merupakan tugas akhir matakuliah Sensor dan Tranduser yang dibuat oleh mahasiswa D4 Teknologi Rekayasa Sistem Elektronika, Universitas Negeri Malang pada Semester 3 (Desember 2022).
 
 Tujuan utama proyek ini adalah merancang dan membangun prototipe mesin pengisi cairan otomatis sederhana menggunakan Arduino Uno, sensor, dan aktuator untuk mengisi wadah (botol) dengan volume cairan yang dapat diatur melalui keypad.
 
 ---
 
 ## Fitur Utama
+
+<div align="center">
+  
+![Diagram Blok Sistem](5.jpg) 
+
+</div>
 
 * **Pengisian Otomatis:** Mengisi cairan ke dalam wadah secara otomatis ketika wadah terdeteksi di posisi pengisian.
 * **Volume Terukur:** Pengguna dapat memasukkan target volume pengisian (dalam mililiter) melalui keypad matriks 4x4.
@@ -19,7 +31,13 @@ Tujuan utama proyek ini adalah merancang dan membangun prototipe mesin pengisi c
 
 ## Komponen yang Digunakan
 
-* **Mikrokontroler:** Arduino Uno (Meskipun laporan menyebut Nano, kode dan skema lebih cocok untuk Uno)
+<div align="center">
+  
+![Prototipe Automatic Liquid Filling Machine](4.jpg) 
+
+</div>
+
+* **Mikrokontroler:** Arduino Uno
 * **Input:**
     * Keypad Matriks 4x4
     * Sensor Infrared Proximity (2 buah)
@@ -41,6 +59,12 @@ Tujuan utama proyek ini adalah merancang dan membangun prototipe mesin pengisi c
 ---
 
 ## Cara Kerja
+
+<div align="center">
+  
+![Flowchart Sistem](5.jpg) 
+
+</div>
 
 1.  **Inisialisasi:** Saat dinyalakan, LCD menampilkan pesan selamat datang, kemudian menampilkan UI utama. Nilai volume terakhir dibaca dari EEPROM. Konveyor mulai berjalan.
 2.  **Deteksi Botol:** Ketika botol diletakkan di awal konveyor dan bergerak hingga mencapai Sensor IR 1 di posisi pengisian, sensor mendeteksi botol.
@@ -68,35 +92,13 @@ Tujuan utama proyek ini adalah merancang dan membangun prototipe mesin pengisi c
     * LCD akan menampilkan proses pengisian. Setelah selesai, pompa berhenti dan konveyor berjalan lagi.
     * Botol akan berhenti di ujung konveyor. Ambil botol tersebut.
 
----
-
-## Media
-
-**Foto Prototipe:**
-
-<div align="center">
-  
-![Prototipe Automatic Liquid Filling Machine](images/prototype_photo.jpg) 
-
-</div>
-
----
-
-**Diagram Blok:**
-
-<div align="center">
-  
-![Diagram Blok Sistem](images/block_diagram.jpg) 
-
-</div>
-
----
-
 **Video Demonstrasi:**
 
 <div align="center">
   
-[![Demonstrasi Pengisian Botol Otomatis](images/video_thumbnail.jpg)](URL_VIDEO_YOUTUBE_ANDA) *(Klik gambar untuk melihat video)*
+[![Demonstrasi Pengisian Botol Otomatis](1.jpg)](https://drive.google.com/file/d/1b4FN0QCAAs1wEMCV2WAWb1J05NRkUE5H/view?usp=sharing) 
+
+*(Klik gambar untuk melihat video)*
 
 </div>
 
