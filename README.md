@@ -1,6 +1,6 @@
-# Automatic Liquid Filling Machine (Arduino Uno)
-
 <div align="center">
+  
+# Automatic Liquid Filling Machine (Arduino Uno)
 
 ![Ilustrasi Sistem](2.png) 
 
@@ -12,10 +12,10 @@ Tujuan utama proyek ini adalah merancang dan membangun prototipe mesin pengisi c
 
 ---
 
-## Fitur Utama
-
 <div align="center">
   
+## Fitur Utama
+
 ![Diagram Blok Sistem](4.jpg) 
 
 </div>
@@ -29,10 +29,10 @@ Tujuan utama proyek ini adalah merancang dan membangun prototipe mesin pengisi c
 
 ---
 
-## Komponen yang Digunakan
-
 <div align="center">
   
+## Komponen yang Digunakan
+
 ![Prototipe Automatic Liquid Filling Machine](5.jpg) 
 
 </div>
@@ -58,10 +58,10 @@ Tujuan utama proyek ini adalah merancang dan membangun prototipe mesin pengisi c
 
 ---
 
-## Cara Kerja
-
 <div align="center">
   
+## Cara Kerja
+
 ![Flowchart Sistem](3.png) 
 
 </div>
@@ -77,8 +77,15 @@ Tujuan utama proyek ini adalah merancang dan membangun prototipe mesin pengisi c
 9.  **Siklus Berulang:** Setelah botol diambil dari ujung konveyor (Sensor IR 2 tidak mendeteksi), konveyor akan mulai berjalan lagi untuk siklus berikutnya.
 
 ---
-
+<div align="center">
+  
 ## Pengaturan & Penggunaan
+  
+[![Demonstrasi Pengisian Botol Otomatis](1.png)](https://drive.google.com/file/d/1b4FN0QCAAs1wEMCV2WAWb1J05NRkUE5H/view?usp=sharing) 
+
+*(Klik gambar untuk melihat video demonstrasi)*
+
+</div>
 
 1.  **Upload Kode:** Upload file `automatic_liquid_filler.ino` ke Arduino Uno menggunakan Arduino IDE. Pastikan library `Keypad.h` dan `LiquidCrystal_I2C.h` sudah terinstal.
 2.  **Wiring:** Hubungkan semua komponen sesuai dengan pin yang didefinisikan dalam kode dan skema rangkaian. **Perhatian:** Pastikan koneksi relay dan sumber daya eksternal (12V) sudah benar untuk menghindari kerusakan.
@@ -91,15 +98,5 @@ Tujuan utama proyek ini adalah merancang dan membangun prototipe mesin pengisi c
     * Tekan `*` untuk melihat volume yang tersimpan di EEPROM.
     * LCD akan menampilkan proses pengisian. Setelah selesai, pompa berhenti dan konveyor berjalan lagi.
     * Botol akan berhenti di ujung konveyor. Ambil botol tersebut.
-
-**Video Demonstrasi:**
-
-<div align="center">
-  
-[![Demonstrasi Pengisian Botol Otomatis](1.png)](https://drive.google.com/file/d/1b4FN0QCAAs1wEMCV2WAWb1J05NRkUE5H/view?usp=sharing) 
-
-*(Klik gambar untuk melihat video)*
-
-</div>
 
 ---
